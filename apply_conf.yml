@@ -1,6 +1,6 @@
 ---
 - name: Configuring the CH
-  hosts: localhost
+  hosts: test_servers
   user: root
   become: true
   roles:
