@@ -1,6 +1,7 @@
 ---
 - name: Configuring the CH
   hosts: localhost
+  become: true
   roles:
     - httpd
     - firewalld
