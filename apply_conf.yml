@@ -4,4 +4,4 @@
   roles:
     - httpd
     - firewalld
-    - selinux
+    # - selinux
