@@ -1,0 +1,6 @@
+---
+# tasks file for firewalld
+- name: Keep firewalld service up and running
+  service:
+    name: firewalld
+    state: started

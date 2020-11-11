@@ -1,0 +1,3 @@
+---
+# tasks file for sec
+- name: SELinux in Permissive Mode

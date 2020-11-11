@@ -1,0 +1,16 @@
+---
+# tasks file for httpd
+- name: Installing HTTPD
+  yum:
+    name: httpd
+    state: latest
+  
+- name: Starting the HTTPD Service
+  service:
+    name: httpd
+    state: started
+
+- name: Copying the template file
+  template:
+    src: templates/index.j2
+    dest: /var/www/html/index.html
