@@ -1,9 +1,9 @@
 ---
 - name: Configuring the CH
-  hosts: test_servers
+  hosts: localhost
   user: root
   become: true
   roles:
-    - httpd
-    - firewalld
+    - role: httpd
+    # - firewalld
     # - selinux
