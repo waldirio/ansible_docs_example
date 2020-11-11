@@ -1,6 +1,7 @@
 ---
-#hosts: localhost
-role:
-  httpd
-  firewalld
-  selinux
+- name: Configuring the CH
+hosts: localhost
+roles:
+  - httpd
+  - firewalld
+  - selinux
