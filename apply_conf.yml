@@ -1,6 +1,7 @@
 ---
 - name: Configuring the CH
   hosts: localhost
+  connection: local
   user: root
   become: true
   roles:
