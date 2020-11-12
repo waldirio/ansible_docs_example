@@ -2,7 +2,7 @@
 - name: Configuring the CH
   hosts: localhost
   # delegate_to: localhost
-  connection: local  
+  # connection: local  
   # user: root
   # # become: true
   # roles:
