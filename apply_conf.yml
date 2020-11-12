@@ -1,7 +1,7 @@
 ---
 - name: Configuring the CH
   hosts: localhost
-  delegate_to: localhost
+  # delegate_to: localhost
   connection: local  
   user: root
   # become: true
