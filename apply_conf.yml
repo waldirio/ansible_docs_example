@@ -1,6 +1,6 @@
 ---
 - name: Configuring the CH
-  hosts: localhost
+  hosts: hostvars["localhost"]
   # delegate_to: localhost
   # connection: local  
   # user: root
