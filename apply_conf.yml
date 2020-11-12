@@ -3,9 +3,13 @@
   hosts: localhost
   # delegate_to: localhost
   connection: local  
-  user: root
-  # become: true
-  roles:
-    - role: httpd
-    # - firewalld
-    # - selinux
+  # user: root
+  # # become: true
+  # roles:
+  #   - role: httpd
+  #   # - firewalld
+  #   # - selinux
+
+  tasks:
+    - name: check hostname
+      command: hostname
