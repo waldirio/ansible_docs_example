@@ -4,7 +4,7 @@
   delegate_to: localhost
   connection: local  
   user: root
-  become: true
+  # become: true
   roles:
     - role: httpd
     # - firewalld
